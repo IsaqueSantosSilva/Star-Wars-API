@@ -22,7 +22,7 @@ body{
     background-attachment: fixed;
     background-position: center;
     background-image: 
-    url(https://acegif.com/wp-content/gif/outerspace-6.gif);
+    url("images/background.gif");
 }
 
 .title{
@@ -60,7 +60,7 @@ fieldset{
     margin: 5vh 5%;
     padding: 0 .5rem;
     background: #000001;
-    border: 1px solid var(--primary-color);;
+    border: 2px solid var(--primary-color);;
     border-radius: 3px;
 }
 
