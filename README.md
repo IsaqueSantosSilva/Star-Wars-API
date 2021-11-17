@@ -1,9 +1,9 @@
 # Star-Wars-API
-The code is kind of a mess but it works and it'll do for now
+I updated the code to asyn await so i wouldn't need to use so much .then aside from that only a fw changes to the design.
 
 <br />
 
- <img alt="" width="1000" src="https://github.com/ZekaBoga/Star-Wars-API/blob/main/images/sample.png">
+ <img alt="" width="1000" src="https://github.com/ZekaBoga/Star-Wars-API/blob/main/assets/images/sample.png">
 
 <br />
 
