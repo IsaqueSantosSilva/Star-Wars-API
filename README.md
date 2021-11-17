@@ -1,5 +1,5 @@
 # Star-Wars-API
-I updated the code to asyn await so i wouldn't need to use so much .then aside from that only a fw changes to the design.
+I updated the code to async await so i wouldn't need to use so much .then aside from that only a fw changes to the design.
 
 <br />
 
