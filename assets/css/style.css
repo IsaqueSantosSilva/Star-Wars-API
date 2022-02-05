@@ -21,11 +21,11 @@ body {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("../images/background.jpg");
+  background-image: url("../images/bg.webp");
 }
 
 .title {
-  font-size: 7vmin;
+  font-size: 6vmax;
   font-family: Star_Wars_Font;
   text-align: center;
   -webkit-user-select: none;
@@ -41,9 +41,13 @@ body {
 
 .sub-title {
   text-align: center;
-  font-size: 4vmin;
+  font-size: 3vmax;
   color: var(--primary-color);
   text-shadow: 1px 1px 3px #000;
+}
+
+.sub-title {
+  padding: 2rem 0;
 }
 
 .container {
@@ -53,15 +57,19 @@ body {
   align-items: center;
   max-width: 80em;
   margin: auto;
+  padding: 1rem;
+  gap: 3rem;
+}
+
+.container legend {
+  text-align: center;
 }
 
 fieldset {
-  width: 100%;
-  max-width: 250px;
-  margin: 4vw;
   padding: 0 0.5rem;
   background: #000001;
   border: 2px solid var(--primary-color);
+  flex-grow: 1;
   border-radius: 3px;
   opacity: 0.9;
 }
@@ -78,37 +86,23 @@ fieldset * {
 
 fieldset p {
   margin: 0.5rem 0;
+  letter-spacing: 1.5px;
 }
 
 fieldset p span {
   color: var(--primary-color);
 }
 
-@media only screen and (max-width: 600px) {
-  .title {
-    font-size: 10vmin;
-    text-shadow: 2px 0 0 var(--primary-color), -2px 0 0 var(--primary-color),
-      0 2px 0 var(--primary-color), 0 -2px 0 var(--primary-color),
-      2px 2px var(--primary-color), -2px -2px 0 var(--primary-color),
-      2px -2px 0 var(--primary-color), -2px 2px 0 var(--primary-color);
-  }
-
-  .sub-title {
-    font-size: 6vmin;
-  }
-
+@media only screen and (max-width: 701px) {
   fieldset {
-    width: 200px;
-    margin: 2vh 5%;
-    border: 3px solid var(--primary-color);
-    border-radius: 5px;
-  }
-
-  fieldset h3 {
-    font-size: 13px;
-  }
-
-  fieldset p {
-    font-size: 13px;
+    /* width: 100%; */
+    min-width: 290px;
+    max-width: 300px;
+    padding: 0 0.5rem;
+    background: #000001;
+    border: 2px solid var(--primary-color);
+    flex-grow: 1;
+    border-radius: 3px;
+    opacity: 0.9;
   }
 }
