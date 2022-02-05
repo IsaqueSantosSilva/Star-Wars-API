@@ -1,6 +1,6 @@
 ## Star-Wars-API
 
-Protótipo: [StarWarsAPI.com](http://isaquesilva.infinityfreeapp.com/Star-Wars-API/)
+Protótipo: [StarWarsAPI.com](https://isaquesantossilva.github.io/Star-Wars-API/)
 
 <br />
 <br />
