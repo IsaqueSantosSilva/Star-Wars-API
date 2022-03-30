@@ -2,7 +2,7 @@
 
 <br />
 
-Protótipo: [StarWarsAPI.com](https://isaquesantossilva.github.io/Star-Wars-API/)
+Protótipo: https://isaquesantossilva.github.io/Star-Wars-API/
 
 <br />
 
